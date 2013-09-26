@@ -6,7 +6,9 @@ function make_base_auth(user, password) {
 
 
 function bookmarkIt(tab) {
-	var url = 'https://jooddang123:asdf1234@api.del.icio.us/v1/posts/add';
+	var id = '';
+	var password = '';
+	var url = 'https://' + id + ':' + password + '@api.del.icio.us/v1/posts/add';
 	console.log(tab);
 	var currentLocation = tab[0].url;
 	// $('#result').text('working...' + currentLocation);
