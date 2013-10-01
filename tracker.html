@@ -1,12 +1,19 @@
 <!doctype html>
 <html>
 	<head>
+		<!-- css file -->
+		<link rel="stylesheet" href="tracker.css">
+		<!-- .js files -->
 		<script src="jquery.2.0.3.js"></script>
 		<script type="text/javascript" src="tracker.js"></script>
 	</head>
 	<body>
-		<input type="text" id="box" placeholder="tag here">
-		<input type="submit" id="button">
+		<div id="plugin-wrapper">
+			<h3>Visualize Trails!</h3>
+			<img src="icon.png" alt="logo"><br><br>
+			<input type="text" id="box" placeholder="enter tag here"><br>
+			<input type="submit" id="button" class="submitBtn">
+		</div>
 		<div id="result"></div>
 	</body>
 </html>
